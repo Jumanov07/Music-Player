@@ -1,20 +1,21 @@
 import {
-  Photo,
   Audio,
   Audio2,
-  Photo2,
   Audio3,
-  Photo3,
   Audio4,
-  Photo4,
   Audio5,
+  Photo,
+  Photo2,
+  Photo3,
+  Photo4,
   Photo5,
   Video,
-  Vide2,
-  Vide3,
-} from "../../assets";
+  Video2,
+  Video3,
+} from "../../assets/index";
+import { ISong } from "../../interfaces";
 
-export const musicAPI = [
+const MUSICS: ISong[] = [
   {
     songName: "Alisher",
     songArtist: "Bakr",
@@ -47,4 +48,6 @@ export const musicAPI = [
   },
 ];
 
-export const vidArray = [Video, Vide2, Vide3];
+const VIDEOS: string[] = [Video, Video2, Video3];
+
+export { MUSICS, VIDEOS };

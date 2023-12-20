@@ -6,11 +6,14 @@
   --mainDimColor: rgb(238, 238, 228);
 }
 
-body {
+* {
   margin: 0;
   padding: 0;
-  overflow: hidden;
   box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
 }
 
 .container {

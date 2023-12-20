@@ -1,0 +1,13 @@
+export { default as Video } from "./videos/video3.mp4";
+export { default as Video2 } from "./videos/video2.mp4";
+export { default as Video3 } from "./videos/video1.mp4";
+export { default as Audio } from "./audios/music1.mp3";
+export { default as Audio2 } from "./audios/music2.mp3";
+export { default as Audio3 } from "./audios/music3.mp3";
+export { default as Audio4 } from "./audios/music4.mp3";
+export { default as Audio5 } from "./audios/music5.mp3";
+export { default as Photo } from "./images/image1.jpg";
+export { default as Photo2 } from "./images/image2.jpg";
+export { default as Photo3 } from "./images/image3.jpg";
+export { default as Photo4 } from "./images/image4.jpg";
+export { default as Photo5 } from "./images/image5.jpg";
